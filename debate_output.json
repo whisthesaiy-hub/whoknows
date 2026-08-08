@@ -1,0 +1,11 @@
+{
+  "ticker": "PAYTECH",
+  "stock_data": {
+    "beta": 1.55,
+    "analyst_expected_return": 0.19,
+    "std_dev": 0.34
+  },
+  "bull": "With an expected return of 19.0% against a beta of 1.55, this offers attractive risk-adjusted upside.",
+  "bear": "PAYTECH's standard deviation of 34.0% is the highest in the universe, and its beta of 1.55 means it will amplify any market downturn -- this is a high-volatility bet, not a stable holding.",
+  "synthesizer": "PAYTECH combines the highest expected return in the universe (19.0%) with its highest risk (std dev 34.0%, beta 1.55). It suits Aggressive-risk-tolerance investors with a long horizon who can absorb drawdowns, but is a poor fit for Conservative or Moderate profiles."
+}

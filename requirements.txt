@@ -1,0 +1,2 @@
+# Part 3 uses only the Python standard library (os, re, json, math) in MOCK_LLM=1 mode.
+# No third-party packages are required for the graded baseline.

@@ -1,0 +1,122 @@
+[
+  {
+    "investor_id": "INV01",
+    "risk_tolerance": "Conservative",
+    "tickers": [
+      "PAYBOND",
+      "PAYGOLD",
+      "PAYRETAIL"
+    ],
+    "weights": {
+      "PAYBOND": 0.3333333333333333,
+      "PAYGOLD": 0.3333333333333333,
+      "PAYRETAIL": 0.3333333333333333
+    },
+    "per_stock_capm_return": {
+      "PAYBOND": 0.07300000000000001,
+      "PAYGOLD": 0.082,
+      "PAYRETAIL": 0.121
+    },
+    "portfolio_expected_return": 0.092,
+    "portfolio_variance": 0.0071222222222222225,
+    "portfolio_std_dev": 0.08439325934114775,
+    "escalated_to_human_advisor": false,
+    "narrative": "For Conservative investor INV01, we recommend an allocation across ['PAYBOND', 'PAYGOLD', 'PAYRETAIL'] with an expected portfolio return of 9.2% and volatility of 8.4%."
+  },
+  {
+    "investor_id": "INV02",
+    "risk_tolerance": "Moderate",
+    "tickers": [
+      "PAYRETAIL",
+      "PAYINFRA",
+      "PAYGOLD"
+    ],
+    "weights": {
+      "PAYRETAIL": 0.3333333333333333,
+      "PAYINFRA": 0.3333333333333333,
+      "PAYGOLD": 0.3333333333333333
+    },
+    "per_stock_capm_return": {
+      "PAYRETAIL": 0.121,
+      "PAYINFRA": 0.136,
+      "PAYGOLD": 0.082
+    },
+    "portfolio_expected_return": 0.113,
+    "portfolio_variance": 0.015802222222222224,
+    "portfolio_std_dev": 0.12570689011435382,
+    "escalated_to_human_advisor": false,
+    "narrative": "For Moderate investor INV02, we recommend an allocation across ['PAYRETAIL', 'PAYINFRA', 'PAYGOLD'] with an expected portfolio return of 11.3% and volatility of 12.6%."
+  },
+  {
+    "investor_id": "INV03",
+    "risk_tolerance": "Aggressive",
+    "tickers": [
+      "PAYTECH",
+      "PAYFIN",
+      "PAYINFRA"
+    ],
+    "weights": {
+      "PAYTECH": 0.3333333333333333,
+      "PAYFIN": 0.3333333333333333,
+      "PAYINFRA": 0.3333333333333333
+    },
+    "per_stock_capm_return": {
+      "PAYTECH": 0.163,
+      "PAYFIN": 0.15100000000000002,
+      "PAYINFRA": 0.136
+    },
+    "portfolio_expected_return": 0.15000000000000002,
+    "portfolio_variance": 0.04237333333333334,
+    "portfolio_std_dev": 0.2058478402445198,
+    "escalated_to_human_advisor": true,
+    "narrative": "ESCALATED_TO_HUMAN_ADVISOR: For Aggressive investor INV03, the computed allocation across ['PAYTECH', 'PAYFIN', 'PAYINFRA'] has an expected portfolio return of 15.0% and volatility of 20.6%, which exceeds the 20% human-review threshold and requires manual sign-off before finalizing."
+  },
+  {
+    "investor_id": "INV04",
+    "risk_tolerance": "Moderate",
+    "tickers": [
+      "PAYRETAIL",
+      "PAYINFRA",
+      "PAYGOLD"
+    ],
+    "weights": {
+      "PAYRETAIL": 0.3333333333333333,
+      "PAYINFRA": 0.3333333333333333,
+      "PAYGOLD": 0.3333333333333333
+    },
+    "per_stock_capm_return": {
+      "PAYRETAIL": 0.121,
+      "PAYINFRA": 0.136,
+      "PAYGOLD": 0.082
+    },
+    "portfolio_expected_return": 0.113,
+    "portfolio_variance": 0.015802222222222224,
+    "portfolio_std_dev": 0.12570689011435382,
+    "escalated_to_human_advisor": false,
+    "narrative": "For Moderate investor INV04, we recommend an allocation across ['PAYRETAIL', 'PAYINFRA', 'PAYGOLD'] with an expected portfolio return of 11.3% and volatility of 12.6%."
+  },
+  {
+    "investor_id": "INV05",
+    "risk_tolerance": "Aggressive",
+    "tickers": [
+      "PAYTECH",
+      "PAYFIN",
+      "PAYINFRA"
+    ],
+    "weights": {
+      "PAYTECH": 0.3333333333333333,
+      "PAYFIN": 0.3333333333333333,
+      "PAYINFRA": 0.3333333333333333
+    },
+    "per_stock_capm_return": {
+      "PAYTECH": 0.163,
+      "PAYFIN": 0.15100000000000002,
+      "PAYINFRA": 0.136
+    },
+    "portfolio_expected_return": 0.15000000000000002,
+    "portfolio_variance": 0.04237333333333334,
+    "portfolio_std_dev": 0.2058478402445198,
+    "escalated_to_human_advisor": true,
+    "narrative": "ESCALATED_TO_HUMAN_ADVISOR: For Aggressive investor INV05, the computed allocation across ['PAYTECH', 'PAYFIN', 'PAYINFRA'] has an expected portfolio return of 15.0% and volatility of 20.6%, which exceeds the 20% human-review threshold and requires manual sign-off before finalizing."
+  }
+]

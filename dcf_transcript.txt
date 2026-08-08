@@ -1,0 +1,37 @@
+=== Inputs ===
+FCFF Year 0: Rs. 65.00 crore (= 120.0*(1-0.25) + 30.0 - 45.0 - 10.0)
+Growth schedule (Y1-Y5): ['18%', '16%', '14%', '12%', '10%'], terminal: 6.0%
+Cost of equity (CAPM, beta=1.35 from PAYFIN): 15.1000%
+After-tax cost of debt: 6.7500% (pre-tax 9.0%)
+Capital structure: 70% equity / 30% debt
+WACC: 12.5950%
+Terminal growth: 6.0%  (gap to base WACC: 6.60pp, required >= 3.0pp)
+
+=== 5-year FCFF projection (Rs. crore) ===
+  Year 1: 76.70
+  Year 2: 88.97
+  Year 3: 101.43
+  Year 4: 113.60
+  Year 5: 124.96
+
+Terminal value (end of Year 5): Rs. 2008.45 crore
+PV of terminal value: Rs. 1109.85 crore
+PV of 5-year FCFF: Rs. 349.09 crore
+Enterprise Value (DCF): Rs. 1458.94 crore (Rs. 14,589,390,593)
+
+=== 3x3 sensitivity table (Enterprise Value, Rs. crore) ===
+WACC \ terminal_g           5.0%        6.0%        7.0%
+11.60%                    1508.1      1726.5      2039.9
+12.60%                    1303.7      1458.9      1669.6
+13.60%                    1147.0      1262.0      1411.8
+
+Self-check: worst-case WACC - terminal_growth = 4.60pp (required >= 1pp) -- PASS
+
+=== EV/EBITDA cross-check ===
+Base-year EBITDA: Rs. 150.00 crore  (EBIT 120.0 + D&A 30.0)
+Illustrative multiple: 14.0x
+EV/EBITDA-implied Enterprise Value: Rs. 2100.00 crore
+DCF-implied Enterprise Value: Rs. 1458.94 crore
+Difference: -30.5% (DCF vs. multiple)
+
+Wrote dcf_output.json

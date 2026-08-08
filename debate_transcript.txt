@@ -1,0 +1,10 @@
+MOCK_LLM mode: True (graded baseline is MOCK_LLM=1 / unset)
+Ticker: PAYTECH
+
+BULL: With an expected return of 19.0% against a beta of 1.55, this offers attractive risk-adjusted upside.
+
+BEAR: PAYTECH's standard deviation of 34.0% is the highest in the universe, and its beta of 1.55 means it will amplify any market downturn -- this is a high-volatility bet, not a stable holding.
+
+SYNTHESIZER: PAYTECH combines the highest expected return in the universe (19.0%) with its highest risk (std dev 34.0%, beta 1.55). It suits Aggressive-risk-tolerance investors with a long horizon who can absorb drawdowns, but is a poor fit for Conservative or Moderate profiles.
+
+Wrote debate_output.json

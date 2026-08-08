@@ -1,0 +1,38 @@
+MOCK_LLM mode: True (graded baseline is MOCK_LLM=1 / unset)
+
+--- INV01 (Conservative) ---
+  Tickers: ['PAYBOND', 'PAYGOLD', 'PAYRETAIL']
+  Portfolio expected return: 9.2000%
+  Portfolio std dev: 8.4393%
+  Escalated: False
+  Narrative: For Conservative investor INV01, we recommend an allocation across ['PAYBOND', 'PAYGOLD', 'PAYRETAIL'] with an expected portfolio return of 9.2% and volatility of 8.4%.
+
+--- INV02 (Moderate) ---
+  Tickers: ['PAYRETAIL', 'PAYINFRA', 'PAYGOLD']
+  Portfolio expected return: 11.3000%
+  Portfolio std dev: 12.5707%
+  Escalated: False
+  Narrative: For Moderate investor INV02, we recommend an allocation across ['PAYRETAIL', 'PAYINFRA', 'PAYGOLD'] with an expected portfolio return of 11.3% and volatility of 12.6%.
+
+--- INV03 (Aggressive) ---
+  Tickers: ['PAYTECH', 'PAYFIN', 'PAYINFRA']
+  Portfolio expected return: 15.0000%
+  Portfolio std dev: 20.5848%
+  Escalated: True
+  Narrative: ESCALATED_TO_HUMAN_ADVISOR: For Aggressive investor INV03, the computed allocation across ['PAYTECH', 'PAYFIN', 'PAYINFRA'] has an expected portfolio return of 15.0% and volatility of 20.6%, which exceeds the 20% human-review threshold and requires manual sign-off before finalizing.
+
+--- INV04 (Moderate) ---
+  Tickers: ['PAYRETAIL', 'PAYINFRA', 'PAYGOLD']
+  Portfolio expected return: 11.3000%
+  Portfolio std dev: 12.5707%
+  Escalated: False
+  Narrative: For Moderate investor INV04, we recommend an allocation across ['PAYRETAIL', 'PAYINFRA', 'PAYGOLD'] with an expected portfolio return of 11.3% and volatility of 12.6%.
+
+--- INV05 (Aggressive) ---
+  Tickers: ['PAYTECH', 'PAYFIN', 'PAYINFRA']
+  Portfolio expected return: 15.0000%
+  Portfolio std dev: 20.5848%
+  Escalated: True
+  Narrative: ESCALATED_TO_HUMAN_ADVISOR: For Aggressive investor INV05, the computed allocation across ['PAYTECH', 'PAYFIN', 'PAYINFRA'] has an expected portfolio return of 15.0% and volatility of 20.6%, which exceeds the 20% human-review threshold and requires manual sign-off before finalizing.
+
+Wrote advisory_agent_output.json
